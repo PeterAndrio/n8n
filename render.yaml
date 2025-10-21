@@ -3,7 +3,7 @@ services:
     name: n8n
     env: docker
     plan: free
-    repo: https://github.com/YOUR_USERNAME/n8n
+    repo: https://github.com/PeterAndrio/n8n
     branch: master   # 👈 change this from 'main' to 'master'
     dockerContext: .
     dockerfilePath: Dockerfile
