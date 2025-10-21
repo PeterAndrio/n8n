@@ -2,11 +2,11 @@ services:
   - type: web
     name: n8n
     env: docker
-    repo: https://github.com/PeterAndrio/n8n
-    branch: main
+    plan: free
+    repo: https://github.com/YOUR_USERNAME/n8n
+    branch: master   # 👈 change this from 'main' to 'master'
     dockerContext: .
     dockerfilePath: Dockerfile
-    plan: free
     envVars:
       - key: N8N_BASIC_AUTH_ACTIVE
         value: "true"
